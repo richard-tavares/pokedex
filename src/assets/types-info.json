@@ -1,0 +1,92 @@
+{
+    "normal": {
+        "pt": "Normal",
+        "color": "#8c959c",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Normal.svg"
+    },
+    "fire": {
+        "pt": "Fogo",
+        "color": "#F08030",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Fire.svg"
+    },
+    "water": {
+        "pt": "Água",
+        "color": "#4d90d5",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Water.svg"
+    },
+    "electric": {
+        "pt": "Elétrico",
+        "color": "#f4d23c",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Electric.svg"
+    },
+    "grass": {
+        "pt": "Grama",
+        "color": "#63bb5c",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Grass.svg"
+    },
+    "ice": {
+        "pt": "Gelo",
+        "color": "#73cebd",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Ice.svg"
+    },
+    "fighting": {
+        "pt": "Lutador",
+        "color": "#C03028",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Fighting.svg"
+    },
+    "poison": {
+        "pt": "Venenoso",
+        "color": "#A040A0",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Poison.svg"
+    },
+    "ground": {
+        "pt": "Terrestre",
+        "color": "#d97746",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Ground.svg"
+    },
+    "flying": {
+        "pt": "Voador",
+        "color": "#91a9df",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Flying.svg"
+    },
+    "psychic": {
+        "pt": "Psíquico",
+        "color": "#F85888",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Psychic.svg"
+    },
+    "bug": {
+        "pt": "Inseto",
+        "color": "#8fc12c",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Bug.svg"
+    },
+    "rock": {
+        "pt": "Pedra",
+        "color": "#c7b88e",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Rock.svg"
+    },
+    "ghost": {
+        "pt": "Fantasma",
+        "color": "#526aaa",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Ghost.svg"
+    },
+    "dragon": {
+        "pt": "Dragão",
+        "color": "#2c007a",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Dragon.svg"
+    },
+    "dark": {
+        "pt": "Sombrio",
+        "color": "#5a5365",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Dark.svg"
+    },
+    "steel": {
+        "pt": "Aço",
+        "color": "#5a8f9f",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Steel.svg"
+    },
+    "fairy": {
+        "pt": "Fada",
+        "color": "#ec8fe6",
+        "foto": "src/assets/types-icons/Pokemon_Type_Icon_Fairy.svg"
+    }
+}
