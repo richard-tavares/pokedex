@@ -53,7 +53,7 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/pokedex',
+  base: '/pokedex/',
   define: { 'process.env': {} },
   resolve: {
     alias: {
