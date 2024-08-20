@@ -15,24 +15,16 @@
             </v-col>
         </v-row>
     </v-card>
-    <v-skeleton-loader v-if="loading" class="pa-3">
-        <template v-slot:default>
-            <v-card>
-                <v-card-title>Carregando...</v-card-title>
-            </v-card>
-        </template>
-    </v-skeleton-loader>
 </template>
 
 <script lang="ts" setup>
-import { defineProps, computed } from 'vue';
+import { computed } from 'vue';
 import type { PokemonDetail } from '@/types/pokemon';
 import type { TypeInfoMap } from '@/types/type';
 import typeInfo from '@/assets/types-info.json';
 
 const props = defineProps<{
     pokemon: PokemonDetail | null;
-    loading: boolean;
 }>();
 
 const heightInMeters = computed(() => {

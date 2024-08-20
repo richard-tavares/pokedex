@@ -12,7 +12,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, computed, onMounted, defineProps } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 import { getPokemonList, getPokemonDetails } from '@/api/pokeAPI';
 import PokemonList from '@/components/PokemonList.vue';
 import PokemonDetails from '@/components/PokemonDetails.vue';
