@@ -72,6 +72,16 @@ const selectPokemon = (pokemon: { url: string }) => {
   max-height: 5rem;
 }
 
+@media (min-width: 1400px) {
+  .pokemon-list {
+    height: 45rem;
+  }
+
+  .pokemon-sprite {
+    height: 100%;
+  }
+}
+
 @media (max-width: 768px) {
   .pokemon-list {
     max-height: 25rem;

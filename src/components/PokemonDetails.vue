@@ -70,6 +70,16 @@ const formattedTypes = computed(() => {
     margin-right: 8px;
 }
 
+@media (min-width: 1400px) {
+    .pokemon-details {
+        height: 45rem;
+    }
+
+    .pokemon-picture {
+        height: 100%;
+    }
+}
+
 @media (max-width: 768px) {
     .pokemon-details {
         height: 20rem;
