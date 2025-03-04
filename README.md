@@ -34,7 +34,7 @@ O projeto está organizado da seguinte forma:
 
 ## Autor
 
-[RichardTavares](https://github.com/RichardTavares)
+[@richard-tavares](https://github.com/richard-tavares)
 
 ## Aviso Legal
 
