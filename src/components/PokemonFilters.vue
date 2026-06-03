@@ -9,7 +9,7 @@
           {{ selectedGens.length > 1 ? `${selectedGens.length} gerações` : item.title }}
         </span>
       </template>
-      <template #item="{ item, props }">
+      <template #item="{ props }">
         <v-list-item v-bind="props">
           <template #append="{ isSelected }">
             <v-checkbox-btn :model-value="isSelected" density="compact" />
@@ -48,7 +48,7 @@
     <div>
       <p class="text-caption text-medium-emphasis text-uppercase mb-2">Geração</p>
       <v-select v-model="selectedGens" :items="genItems" multiple label="Selecionar gerações" density="compact" variant="solo-filled" flat hide-details rounded="lg">
-        <template #item="{ item, props }">
+        <template #item="{ props }">
           <v-list-item v-bind="props">
             <template #append="{ isSelected }">
               <v-checkbox-btn :model-value="isSelected" density="compact" />
