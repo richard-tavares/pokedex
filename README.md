@@ -2,8 +2,7 @@
 
 Bem-vindo a minha Pokédex, uma aplicação desenvolvida para exibir informações sobre Pokémons utilizando Vue.js, Vuetify, Vite, PokeAPI, Axios e TypeScript. Para testar a aplicação, clique [aqui](https://richard-tavares.github.io/pokedex/).
 
-## Screenshot
-<img width="945" alt="pokedex" src="https://github.com/user-attachments/assets/63f1e004-1fac-4e64-99ee-4349f5a0ce86">
+<img width="1920" height="1080" alt="pokedex" src="https://github.com/user-attachments/assets/2467d693-4973-481d-998e-39bc599b4064" />
 
 ## Tecnologias Utilizadas
 
