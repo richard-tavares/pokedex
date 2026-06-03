@@ -1,38 +1,35 @@
 <template>
-    <v-footer color="grey-darken-4" class="pa-0 ma-0">
-        <v-container class="d-flex justify-between align-center">
-            <span class="white--text">
-                &copy; {{ new Date().getFullYear() }} Desenvolvido por Richard Tavares.
-            </span>
-            <v-spacer></v-spacer>
-            <div class="d-flex align-center">
-                <v-icon v-for="(icon, index) in icons" :key="index" :class="icon.class" size="36" @click="redirectTo(icon.url)">
-                    {{ icon.name }}
-                </v-icon>
-            </div>
-        </v-container>
-    </v-footer>
+  <v-footer height="72" color="grey-darken-4" class="pa-0">
+    <div class="d-flex align-center justify-space-between px-4 py-4 w-100">
+      <span class="text-body-2 text-medium-emphasis">
+        &copy; {{ new Date().getFullYear() }} Richard Tavares
+      </span>
+      <div class="d-flex align-center ga-3">
+        <v-icon v-for="icon in icons" :key="icon.name" :icon="icon.name" size="40" class="social-btn" @click="redirectTo(icon.url)" />
+      </div>
+    </div>
+  </v-footer>
 </template>
 
-<script setup>
-import { ref } from 'vue';
-
+<script lang="ts" setup>
 const icons = [
-    { name: 'mdi-linkedin', class: 'white--text mx-4', url: 'https://www.linkedin.com/in/richard-tavares' },
-    { name: 'mdi-github', class: 'white--text', url: 'https://github.com/RichardTavares' },
-];
+  { name: 'mdi-linkedin', url: 'https://www.linkedin.com/in/richard-tavares' },
+  { name: 'mdi-github', url: 'https://github.com/richard-tavares' },
+]
 
-const redirectTo = (url) => {
-    window.open(url, '_blank');
-};
+const redirectTo = (url: string) => window.open(url, '_blank')
 </script>
 
 <style scoped>
-.v-icon {
-    cursor: pointer;
+.v-footer {
+  padding-bottom: 0 !important;
 }
 
-.v-icon:hover {
-    color: #921616;
+.social-btn {
+  cursor: pointer;
+}
+
+.social-btn:hover {
+  color: rgb(var(--v-theme-primary)) !important;
 }
 </style>

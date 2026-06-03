@@ -10,8 +10,12 @@ declare module 'vue' {
     Footer: typeof import('./components/Footer.vue')['default']
     Navbar: typeof import('./components/Navbar.vue')['default']
     PokemonDetails: typeof import('./components/PokemonDetails.vue')['default']
+    PokemonEvolution: typeof import('./components/PokemonEvolution.vue')['default']
+    PokemonFilters: typeof import('./components/PokemonFilters.vue')['default']
+    PokemonHeader: typeof import('./components/PokemonHeader.vue')['default']
     PokemonList: typeof import('./components/PokemonList.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    TypeChip: typeof import('./components/TypeChip.vue')['default']
   }
 }
